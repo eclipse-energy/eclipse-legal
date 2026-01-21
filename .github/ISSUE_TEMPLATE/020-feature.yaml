@@ -1,0 +1,74 @@
+name: Feature
+description: A new feature or enhancement.
+title: "[Feature]: "
+labels: ["enhancement", "eclipse-aiida"]
+type: Feature
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✨ Feature Request  
+        Please fill out the form to describe the feature you are requesting.
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: 🧑‍💼 User Story
+      description: "Format: As a [type of user], I want [action] so that [value]."
+      placeholder: "As a platform engineer, I want unified configuration loading so that Modbus devices are easier to support."
+    validations:
+      required: false
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: 🔗 Related Issues
+      description: "Link to the related feature or issue (e.g. #42)"
+      placeholder: |
+        depends-on: #42
+        relates-to: #41
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📝 Summary
+      description: "Brief overview of the feature and its importance."
+      placeholder: "Auto-detection of Modbus devices on a bus, to reduce manual setup effort."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔧 Steps To Do
+      description: "Break the feature into small development tasks."
+      placeholder: |
+        - Implement device scan logic
+        - Update device registry model
+        - Add UI support
+    validations:
+      required: false
+
+  - type: textarea
+    id: criteria
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: "Define when the feature is considered complete and working. Use '- [ ]' for each item."
+      placeholder: |
+        - [ ] Devices are auto-detected and appear in config
+        - [ ] Manual override remains possible
+        - [ ] Passes integration tests
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 📚 Additional Notes
+      description: "Optional: Include designs, links, or related issues."
+      placeholder: "See related discussion in #42. Diagram in /docs/modbus-autodiscovery.md"
+    validations:
+      required: false

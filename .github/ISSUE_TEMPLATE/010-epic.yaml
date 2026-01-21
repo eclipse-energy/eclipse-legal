@@ -1,0 +1,74 @@
+name: Epic
+description: A large initiative composed of smaller features and tasks.
+title: "[Epic]: "
+labels: ["eclipse-aiida"]
+type: Epic
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🗺️ Epic Template  
+        Please describe the larger initiative and how it breaks down into sub-tasks and features.  
+        **Note:** All epic completion criteria must be fulfilled before closure.
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: 🧑‍💼 User Story
+      description: "Format: As a [type of user], I want [action] so that [value]."
+      placeholder: "As a platform engineer, I want unified configuration loading so that Modbus devices are easier to support."
+    validations:
+      required: false
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: 🔗 Related Issues
+      description: "Link to the related feature or issue (e.g. #42)"
+      placeholder: |
+        depends-on: #42
+        relates-to: #41
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📝 Summary
+      description: "Briefly describe the scope and motivation for this epic."
+      placeholder: "Enable YAML-driven Modbus device configuration for full support of all use cases and hot reload."
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: 🎯 Goals
+      description: "List the high-level outcomes or capabilities to achieve with this epic."
+      placeholder: |
+        - Support all common Modbus device types
+        - Enable live reconfiguration via YAML
+        - Consolidate register parsing logic
+    validations:
+      required: false
+
+  - type: textarea
+    id: criteria
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: "Define what must be true for this epic to be considered complete. Use '- [ ]' for each item."
+      placeholder: |
+        - [ ] All related issues are closed
+        - [ ] End-user documentation is available
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 📚 Additional Notes
+      description: "Optional: Links to design docs, specs, or technical discussions."
+      placeholder: "See architecture doc in /docs/modbus-epic.md and RFC-005."
+    validations:
+      required: false

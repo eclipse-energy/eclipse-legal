@@ -1,0 +1,63 @@
+name: Bug
+description: A small, actionable unit of work.
+title: "[Bug]: "
+labels: ["bug"]
+type: Bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🛠️ Bug  
+        Use this template to report for a development bug.
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: 🎯 Objective
+      description: "Steps to reproduce the bug, including environment details (OS, Python version, dependencies)."
+      placeholder: "Steps:\n1. ...\n2. ...\nEnvironment:\n- OS: ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: 🐞 Current Behavior
+      description: "Describe what actually happens when the bug occurs."
+      placeholder: "Describe the current behavior..."
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: 🎯 Expected Behavior
+      description: "Describe what you expected to happen instead."
+      placeholder: "Describe the expected behavior..."
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📝 Logs / Screenshots
+      description: "Add any relevant error logs, stack traces, or screenshots that help illustrate the problem."
+      placeholder: "Paste logs or attach screenshots here..."
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚠️ Severity
+      description: "Select the severity level of the bug."
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+      default: 2
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 🎯 Solution
+      description: "Optional: Suggest a potential fix, workaround, or related code section."
+      placeholder: "List the things to change to fix the bug"
+    validations:
+      required: true
