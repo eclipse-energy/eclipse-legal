@@ -96,4 +96,4 @@ These Terms are governed by the laws of the Republic of Austria.
 
 If you have any questions regarding these Terms, please contact:
 
-📧 **sail.energy.developers@fh-hagenberg.at**
+📧 **eclipse@fh-hagenberg.at**
