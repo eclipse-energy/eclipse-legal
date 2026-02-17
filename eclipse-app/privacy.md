@@ -10,7 +10,7 @@ This Privacy Policy explains how **Eclipse** ("we", "our", or "the app") collect
 
 **App name:** Eclipse  
 **Provider:** FH OÖ Forschungs & Entwicklungs GmbH (FH-Hagenberg)  
-**Contact email:** sail.energy.developers@fh-hagenberg.at
+**Contact email:** eclipse@fh-hagenberg.at
 
 We take the protection of your personal data seriously and process it in accordance with applicable data protection laws, in particular the **General Data Protection Regulation (GDPR)**.
 
@@ -90,7 +90,7 @@ You have the right to:
 - Restrict or object to data processing
 - Request data portability
 
-To exercise your rights, please contact us at **sail.energy.developers@fh-hagenberg.at**.
+To exercise your rights, please contact us at **eclipse@fh-hagenberg.at**.
 
 ---
 
@@ -112,4 +112,4 @@ Changes will be published on this page and are effective immediately upon public
 
 If you have any questions about this Privacy Policy or data protection, please contact:
 
-📧 **sail.energy.developers@fh-hagenberg.at**
+📧 **eclipse@fh-hagenberg.at**
