@@ -1,0 +1,26 @@
+Titel: Energie in Echtzeit verfolgen, PV-Anlagen überwachen und Energiegemeinschaften beitreten.
+
+Beschreibung:
+Übernehmen Sie die Kontrolle über die Energie Ihres Zuhauses mit der Eclipse App. Entwickelt, um komplexe Energiedaten in klare und umsetzbare Einblicke zu verwandeln, hilft Ihnen Eclipse dabei, Zeit zu sparen, informiert zu bleiben und einen nachhaltigen Beitrag zu leisten.
+
+Egal, ob Sie Hausbesitzer sind und Kosten senken möchten, Mitglied einer Energiegemeinschaft sind oder sich für Solarenergie begeistern – Eclipse bietet Ihnen die Werkzeuge, um Ihren Energieverbrauch effizient zu steuern.
+
+Hauptfunktionen:
+
+Energie in Echtzeit verfolgen: Sehen Sie den aktuellen Energieverbrauch und die Energieproduktion Ihres Zuhauses live.
+
+Detaillierte historische Analysen: Visualisieren Sie Ihre Energieverläufe über Tage, Wochen, Monate und Jahre hinweg mit übersichtlichen und leicht verständlichen Diagrammen.
+
+Einfache Einrichtung: Verbinden Sie Ihre Smart Meter in wenigen Sekunden, indem Sie Ihre Zählpunktnummer direkt von Ihrer Stromrechnung mit der Kamera scannen.
+
+PV-Anlagen-Monitoring: Behalten Sie Ihre Solarproduktion im Blick und verstehen Sie Ihren gesamten Energiefluss auf einen Blick.
+
+Beitreten & Handeln: Nehmen Sie an lokalen Energiegemeinschaften teil oder betreiben Sie Peer-to-Peer-Energiehandel, um Ihre Einsparungen zu maximieren und erneuerbare Energie zu fördern.
+
+Mehrere Wohnsitze verwalten: Steuern Sie Energiedaten für Ihr Hauptwohnsitz, Ihr Ferienhaus oder Ihre Stadtwohnung – alles in einer einzigen App.
+
+AIIDA-Integration: Verbinden und verwalten Sie AIIDA-Geräte nahtlos für ein erweitertes Energiemanagement.
+
+Warum Eclipse?
+
+Eclipse nimmt die Komplexität aus dem Energiemanagement. Mit transparenten Daten und innovativen Handelsfunktionen unterstützen wir Sie dabei, klügere Entscheidungen für Ihren Geldbeutel und unseren Planeten zu treffen.

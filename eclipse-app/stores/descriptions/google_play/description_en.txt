@@ -1,0 +1,17 @@
+Title: Track real-time energy use, monitor PV systems, and join energy communities.
+
+Description: Take control of your home’s energy with the Eclipse App. Designed to turn complex energy data into clear, actionable insights, Eclipse helps you save time, stay informed, and make a sustainable difference.
+
+Whether you're a homeowner looking to lower costs, a member of an energy community, or a solar power enthusiast, Eclipse provides the tools you need to manage your energy footprint effectively.
+
+Key Features:
+Real-Time Energy Tracking: See your home’s live energy consumption and production as it happens.
+Deep Historical Insights: Visualize your energy patterns over days, weeks, months, and years with intuitive, easy-to-read charts.
+Effortless Setup: Connect your smart meters in seconds by scanning your metering point number directly from your electricity bill using your camera.
+PV System Monitoring: Get a clear view of your solar production and understand your total energy flow at a glance.
+Join & Trade: Participate in local energy communities or engage in peer-to-peer energy trading to maximize your savings and support green energy.
+Multi-Residence Support: Manage energy data for your main home, vacation house, or city flat—all within a single app.
+AIIDA Integration: Seamlessly connect and assign AIIDA devices to your residences for advanced energy management.
+
+Why Choose Eclipse?
+Eclipse removes the complexity from energy management. By providing transparent data and innovative trading features, we empower you to make smarter decisions for your wallet and the planet.
