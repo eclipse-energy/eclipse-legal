@@ -49,11 +49,11 @@ We reserve the right to:
 
 ---
 
-## 5. Energy Data and Calculations
+## 5. Marketplace Data and Services
 
-The app displays energy-related data and provides simulations and calculations based on available information.
+The app displays marketplace listings, service information, performance metrics, and data from connected sources.
 
-All results are provided **for informational purposes only** and do not constitute binding statements, guarantees, or contractual offers related to energy supply, tariffs, or costs.
+All information is provided **for informational purposes only** and does not constitute binding statements or guarantees regarding service quality, marketplace performance, or data availability.
 
 ---
 
