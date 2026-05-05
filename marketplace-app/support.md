@@ -1,6 +1,6 @@
 # Support
 
-This page provides information on how to contact us for support regarding the mobile application **Markeplace App** ("the app"), provided by **FH OÖ Forschungs & Entwicklungs GmbH (FH-Hagenberg)** ("we", "us", or "our").
+This page provides information on how to contact us for support regarding the mobile application **Marketplace App** ("the app"), provided by **FH OÖ Forschungs & Entwicklungs GmbH (FH-Hagenberg)** ("we", "us", or "our").
 
 ---
 
