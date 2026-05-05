@@ -2,7 +2,7 @@
 
 _Last updated: 2026-05-05_
 
-This Privacy Policy explains how **Eclipse** ("we", "our", or "the app") collects, uses, and protects your personal data when you use the mobile application **Marketplace App**.
+This Privacy Policy explains how **Marketplace App** ("we", "our", or "the app") collects, uses, and protects your personal data when you use the mobile application **Marketplace App**.
 
 ---
 
@@ -33,6 +33,19 @@ For the purpose of identifying and authorizing users within the app, we may proc
 - Crash and error details  
 
 This data is required to ensure secure authentication, app stability, and reliable operation.
+
+---
+
+### 2.2 Marketplace-Related Data
+
+For the purpose of providing marketplace functionality, we may process:
+
+- Marketplace memberships and subscription status
+- Installed services and their installation state
+- Data permission requests and their status (accepted, declined, revoked)
+- Connected AIIDA device identifiers
+
+This data is required to deliver core app features such as marketplace browsing, service management, and permission handling.
 
 ---
 
