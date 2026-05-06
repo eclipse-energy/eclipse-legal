@@ -1,0 +1,17 @@
+Titel: Datenmärkte entdecken, Services installieren und Datenfreigaben verwalten.
+
+Beschreibung:
+Übernehmen Sie die Kontrolle über Ihre Daten mit der Marketplace App. Sie bietet Ihnen eine klare und transparente Möglichkeit, Daten-Services zu entdecken, Marktplätzen beizutreten und selbst zu entscheiden, wer auf Ihre Daten zugreifen darf.
+
+Egal, ob Sie neue Energie-Services freischalten, datengetriebene Anwendungen in verschiedenen Bereichen erkunden oder einfach die Kontrolle über Ihre Einwilligungen behalten möchten – die Marketplace App gibt Ihnen alle Werkzeuge an die Hand.
+
+Hauptfunktionen:
+Marktplatz-Entdeckung: Entdecken und treten Sie Energiemärkten bei – weitere Bereiche wie Gesundheit, Wetter, Finanzen und Mobilität folgen in Kürze.
+Service-Installation: Entdecken und installieren Sie Daten-Services direkt auf Ihrem AIIDA-Datenwallet – mit wenigen Schritten.
+Berechtigungsverwaltung: Überprüfen, akzeptieren, ablehnen oder widerrufen Sie Datenfreigaben jederzeit – volle Transparenz und Kontrolle über Ihre Einwilligungen.
+AIIDA-Integration: Verbinden Sie Ihr AIIDA-Gerät (Administrative Interface for In-house Data Access) als persönliches Datenwallet und verknüpfen Sie es mit den Marktplätzen, denen Sie beitreten.
+Marktplatz-Einblicke: Verfolgen Sie Performance-Kennzahlen und Umsatzdaten für jeden Marktplatz, an dem Sie teilnehmen.
+Nachrichten: Bleiben Sie mit Benachrichtigungen und Updates Ihrer verbundenen Marktplätze und Services auf dem Laufenden.
+
+Warum die Marketplace App?
+Die Marketplace App macht Datensouveränität einfach. Indem sie Berechtigungsverwaltung und Service-Entdeckung an einem Ort vereint, ermöglichen wir es Ihnen, von Ihren Daten zu profitieren – zu Ihren Bedingungen.
