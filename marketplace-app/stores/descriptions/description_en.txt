@@ -1,15 +1,15 @@
 Title: Browse data marketplaces, install services, and manage your data permissions.
 
-Description: Take control of your data with the Marketplace App. It gives you a clear, transparent way to discover data services, join marketplaces, and decide exactly who can access your data.
-
+Description:
+Take control of your data with the Marketplace App. It gives you a clear, transparent way to discover data services, join marketplaces, and decide exactly who can access your data.
 Whether you're looking to unlock new energy services, explore data-driven applications across multiple domains, or simply stay in control of your consent preferences, the Marketplace App puts you in the driver's seat.
 
 Key Features:
 Marketplace Discovery: Browse and join energy marketplaces—with more domains like Health, Weather, Finance, and Mobility coming soon.
-Service Installation: Discover and install data services directly onto your AIIDA data wallet with just a few taps.
+Service Installation: Discover and install data services directly onto your Data Wallet with just a few taps.
 Permission Management: Review, accept, decline, or revoke data permissions at any time—full transparency and control over your consent.
-AIIDA Integration: Connect your AIIDA (Administrative Interface for In-house Data Access) device as your personal data wallet and link it to the marketplaces you join.
-Marketplace Insights: Track performance metrics and revenue data for every marketplace you participate in.
+Data Wallet Integration: Connect your Data Wallet as your personal data wallet and link it to the marketplaces you join.
+Marketplace Insights (coming soon): Track performance metrics and revenue data for every marketplace you participate in.
 Messages: Stay up to date with notifications and updates from your connected marketplaces and services.
 
 Why Choose the Marketplace App?
