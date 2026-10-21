@@ -1,18 +1,32 @@
-Titel: Energie in Echtzeit verfolgen, PV-Anlagen überwachen und Energiegemeinschaften beitreten.
+Verfolge deinen Energieverbrauch in Echtzeit, überwache deine PV-Anlage und werde Teil einer Energiegemeinschaft.
 
-Beschreibung:
-Übernehmen Sie die Kontrolle über die Energie Ihres Zuhauses mit der Eclipse App. Entwickelt, um komplexe Energiedaten in klare und umsetzbare Einblicke zu verwandeln, hilft Ihnen Eclipse dabei, Zeit zu sparen, informiert zu bleiben und einen nachhaltigen Beitrag zu leisten.
+Behalte mit der Eclipse App die volle Kontrolle über deinen Energiehaushalt. Eclipse macht komplexe Energiedaten einfach verständlich und liefert dir wertvolle Einblicke in deinen Verbrauch und deine Erzeugung. So kannst du Energiekosten optimieren, fundierte Entscheidungen treffen und einen Beitrag zu einer nachhaltigen Energiezukunft leisten.
 
-Egal, ob Sie Hausbesitzer sind und Kosten senken möchten, Mitglied einer Energiegemeinschaft sind oder sich für Solarenergie begeistern – Eclipse bietet Ihnen die Werkzeuge, um Ihren Energieverbrauch effizient zu steuern.
+Egal, ob du als Hausbesitzer deine Energiekosten senken möchtest, Mitglied einer Energiegemeinschaft bist oder selbst Solarstrom erzeugst – Eclipse bietet dir die passenden Werkzeuge, um deine Energie effizient zu verwalten.
 
-Hauptfunktionen:
-Energie in Echtzeit verfolgen: Sehen Sie den aktuellen Energieverbrauch und die Energieproduktion Ihres Zuhauses live.
-Detaillierte historische Analysen: Visualisieren Sie Ihre Energieverläufe über Tage, Wochen, Monate und Jahre hinweg mit übersichtlichen und leicht verständlichen Diagrammen.
-Einfache Einrichtung: Verbinden Sie Ihre Smart Meter in wenigen Sekunden, indem Sie Ihre Zählpunktnummer direkt von Ihrer Stromrechnung mit der Kamera scannen.
-PV-Anlagen-Monitoring: Behalten Sie Ihre Solarproduktion im Blick und verstehen Sie Ihren gesamten Energiefluss auf einen Blick.
-Beitreten & Handeln: Nehmen Sie an lokalen Energiegemeinschaften teil oder betreiben Sie Peer-to-Peer-Energiehandel, um Ihre Einsparungen zu maximieren und erneuerbare Energie zu fördern.
-Mehrere Wohnsitze verwalten: Steuern Sie Energiedaten für Ihr Hauptwohnsitz, Ihr Ferienhaus oder Ihre Stadtwohnung – alles in einer einzigen App.
-AIIDA-Integration: Verbinden und verwalten Sie AIIDA-Geräte nahtlos für ein erweitertes Energiemanagement.
+DIE WICHTIGSTEN FUNKTIONEN
 
-Warum Eclipse?
-Eclipse nimmt die Komplexität aus dem Energiemanagement. Mit transparenten Daten und innovativen Handelsfunktionen unterstützen wir Sie dabei, klügere Entscheidungen für Ihren Geldbeutel und unseren Planeten zu treffen.
+Energieverbrauch in Echtzeit
+Verfolge deinen aktuellen Stromverbrauch und deine Energieerzeugung live und behalte jederzeit den Überblick.
+
+Detaillierte Verbrauchsanalysen
+Entdecke deine Verbrauchsmuster über Tage, Wochen, Monate und Jahre hinweg – übersichtlich dargestellt in intuitiven Diagrammen.
+
+Einfache Einrichtung
+Verbinde deinen Smart Meter in wenigen Schritten. Scanne dazu einfach deine Zählpunktnummer direkt von deiner Stromrechnung mit der Kamera deines Smartphones.
+
+PV-Anlagen überwachen
+Behalte deine Solarstromproduktion im Blick und erkenne auf einen Blick, wie Energie in deinem Haushalt erzeugt, verbraucht und verteilt wird.
+
+Energiegemeinschaften & Energiehandel
+Werde Teil einer lokalen Energiegemeinschaft oder nutze den direkten Energiehandel zwischen Privatpersonen (Peer-to-Peer), um Kosten zu sparen und erneuerbare Energien zu fördern.
+
+Mehrere Wohnsitze verwalten
+Ob Hauptwohnsitz, Ferienhaus oder Stadtwohnung – verwalte die Energiedaten mehrerer Standorte bequem in einer einzigen App.
+
+AIIDA-Integration
+Verbinde deine AIIDA-Geräte nahtlos mit Eclipse und ordne sie deinen Wohnsitzen zu, um zusätzliche Möglichkeiten für dein Energiemanagement zu nutzen.
+
+WARUM ECLIPSE?
+
+Eclipse macht Energiemanagement einfach, transparent und verständlich. Mit übersichtlichen Energiedaten, intelligenten Analysen und innovativen Möglichkeiten zum Energiehandel unterstützt dich die App dabei, bewusster mit Energie umzugehen, Kosten zu optimieren und aktiv zur Energiewende beizutragen.
