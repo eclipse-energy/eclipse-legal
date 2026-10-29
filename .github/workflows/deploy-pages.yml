@@ -1,0 +1,54 @@
+name: Deploy to GitHub Pages (prod)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Branch, tag or commit SHA to deploy"
+        required: true
+        default: main
+        type: string
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ${{ inputs.ref }}
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Summary
+        run: echo "Deployed \`${{ inputs.ref }}\` to ${{ steps.deployment.outputs.page_url }}" >> "$GITHUB_STEP_SUMMARY"
