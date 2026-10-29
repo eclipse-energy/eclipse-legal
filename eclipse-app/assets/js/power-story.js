@@ -18,8 +18,6 @@
   var cursorEl = article.querySelector(".curve-cursor");
   var readout = article.querySelector("[data-readout]");
   var maxOut = article.querySelector("[data-max]");
-  var overOut = article.querySelector("[data-over]");
-  var limitEl = article.querySelector(".curve-limit");
 
   var kw = [];
   article.querySelectorAll(".curve-bars rect").forEach(function (r) {
@@ -29,15 +27,13 @@
   var peak = Math.max.apply(null, kw);
   var peakAt = kw.indexOf(peak);
 
-  var limit = parseFloat(limitEl.getAttribute("data-limit"));
-  overOut.textContent = kw.filter(function (v) { return v > limit; }).length;
-
   var spikeGroup = article.querySelector(".curve-bars .curve-spike");
   var keep = parseFloat(spikeGroup.getAttribute("data-keep"));
   var shifted = kw.slice();
   spikeGroup.querySelectorAll("rect").forEach(function (r) {
     var i = parseInt(r.style.getPropertyValue("--i"), 10);
-    shifted[i] = kw[i] * keep;
+    var base = parseFloat(r.getAttribute("data-base"));
+    shifted[i] = base + (kw[i] - base) * keep;
   });
   article.querySelectorAll(".curve-shift rect").forEach(function (r) {
     var i = parseInt(r.getAttribute("data-i"), 10);
@@ -67,7 +63,7 @@
     stage.style.setProperty("--dock-s", scale.toFixed(3));
   }
 
-  var STATES = ["is-cursor", "is-hot", "is-max", "is-limit", "is-heat", "is-shift", "is-dock"];
+  var STATES = ["is-cursor", "is-hot", "is-max", "is-shift", "is-dock"];
   var lastStep = -1, lastMax = -1, ticking = false;
 
   function position() {
@@ -80,39 +76,38 @@
     var g = position();
     var step = g < 0 ? 0 : Math.min(steps.length, Math.floor(g) + 1);
 
-    var cursor = g <= -.35 ? 0 : g < 1 ? (g + .35) / 1.35 * (n / 4) : g < 2 ? n / 4 + (g - 1) * (n * 3 / 4) : n;
+    var cursor = g <= -.35 ? 0 : g < .5 ? (g + .35) / .85 * n : n;
     cursor = Math.max(0, Math.min(n, cursor));
     stage.style.setProperty("--cursor", cursor.toFixed(2));
     var at = Math.min(n - 1, Math.floor(cursor));
     readout.textContent = time(at) + " · " + fmt.format(kw[at]) + " kW";
     cursorEl.classList.toggle("is-flip", cursor > n * .78);
     cursorEl.style.setProperty("--ro-kw", kw[at]);
-    var peakShown = step >= 3 ? step <= 4 : step === 2 && cursor > peakAt + 1;
+    var peakShown = step === 1 && cursor > peakAt + 1;
     article.classList.toggle("is-peak", peakShown);
     cursorEl.classList.toggle("is-near", peakShown && Math.abs(at - peakAt) <= 4);
 
     var max;
-    if (step <= 2) max = Math.max.apply(null, kw.slice(0, Math.max(1, Math.ceil(cursor))));
-    else if (step < 5 || (step === 5 && g - 4 < .45)) max = peak;
+    if (step <= 1) max = Math.max.apply(null, kw.slice(0, Math.max(1, Math.ceil(cursor))));
+    else if (step === 2 && g - 1 < .45) max = peak;
     else max = shiftedMax;
     if (max !== lastMax) {
       lastMax = max;
       stage.style.setProperty("--max-kw", max);
       maxOut.textContent = fmt.format(max) + " kW";
     }
+    article.classList.toggle("is-shifted", step >= 2 && max === shiftedMax);
 
     if (step !== lastStep) {
       lastStep = step;
       article.setAttribute("data-step", step);
       steps.forEach(function (s, k) { s.classList.toggle("is-active", k === step - 1); });
       var on = {
-        "is-cursor": step >= 1 && step <= 2,
-        "is-hot": step >= 2,
-        "is-max": step >= 2 && step <= 5,
-        "is-limit": step === 3,
-        "is-heat": step === 4,
-        "is-shift": step >= 5,
-        "is-dock": step >= 6
+        "is-cursor": step === 1,
+        "is-hot": step >= 1,
+        "is-max": step >= 1 && step <= 2,
+        "is-shift": step >= 2,
+        "is-dock": step >= 3
       };
       STATES.forEach(function (c) { article.classList.toggle(c, !!on[c]); });
     }
@@ -135,7 +130,7 @@
     window.removeEventListener("scroll", onScroll);
     window.removeEventListener("resize", onResize);
     article.classList.remove("is-story", "is-scrub");
-    STATES.concat("is-peak").forEach(function (c) { article.classList.remove(c); });
+    STATES.concat("is-peak", "is-shifted").forEach(function (c) { article.classList.remove(c); });
     article.removeAttribute("data-step");
     steps.forEach(function (s) { s.classList.remove("is-active"); });
     ["--cursor", "--max-kw", "--dock-x", "--dock-y", "--dock-s"].forEach(function (p) { stage.style.removeProperty(p); });
