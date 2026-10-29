@@ -1015,6 +1015,16 @@ p { margin: 0; }
   font-size: .85rem;
   color: rgba(255, 255, 255, .62);
 }
+.funding-details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  margin: 0;
+  font-size: .85rem;
+  color: rgba(255, 255, 255, .62);
+}
+.funding-details dt { font-weight: 700; color: rgba(255, 255, 255, .82); }
+.funding-details dd { margin: 0; }
 
 .cta {
   position: relative;
@@ -1381,6 +1391,9 @@ p { margin: 0; }
   .fan .phone--right { transform: translateX(46%) rotate(7deg) scale(.82); }
 
   .footer-grid { grid-template-columns: 1fr; }
+
+  .funding-details { grid-template-columns: 1fr; gap: 2px; }
+  .funding-details dd + dt { margin-top: 8px; }
 
   .features { grid-template-columns: 1fr; }
 
